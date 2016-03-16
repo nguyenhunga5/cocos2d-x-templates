@@ -9,7 +9,7 @@
 #include "___FILEBASENAME___Reader.h"
 #include "___FILEBASENAME___.h"
 
-using namespace cocos2d;
+USING_NS_CC;
 
 static ___FILEBASENAME___Reader* _instance___FILEBASENAME___Reader = nullptr;
 
