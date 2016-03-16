@@ -16,6 +16,7 @@ class ___FILEBASENAMEASIDENTIFIER___Reader : public cocostudio::NodeReader {
 public:
     static ___FILEBASENAMEASIDENTIFIER___Reader* getInstance();
     static void purge();
+    static const std::string getFileName();
     cocos2d::Node* createNodeWithFlatBuffers(const flatbuffers::Table* nodeOptions);
 };
 

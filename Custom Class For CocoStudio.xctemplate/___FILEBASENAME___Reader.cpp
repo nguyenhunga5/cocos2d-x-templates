@@ -24,6 +24,10 @@ void ___FILEBASENAME___Reader::purge() {
     CC_SAFE_DELETE(_instance___FILEBASENAME___Reader);
 }
 
+static const std::string getFileName() {
+	return "___FILEBASENAME___Reader";
+}
+
 Node* ___FILEBASENAME___Reader::createNodeWithFlatBuffers(const flatbuffers::Table *nodeOptions) {
     ___FILEBASENAME___* node = ___FILEBASENAME___::create();
     setPropsWithFlatBuffers(node, nodeOptions);
