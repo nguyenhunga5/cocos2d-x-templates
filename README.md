@@ -14,7 +14,7 @@ XCode templates for cocos2d-x
 ## setup
 
     mkdir -p "$HOME/Library/Developer/Xcode/Templates/File Templates"
-    git clone https://github.com/ryutamaki/cocos2d-x-templates.git ~/Library/Developer/Xcode/Templates/File\ Templates/cocos2d-x
+    git clone https://github.com/nguyenhunga5/cocos2d-x-templates.git ~/Library/Developer/Xcode/Templates/File\ Templates/cocos2d-x
 
 ## update
 
